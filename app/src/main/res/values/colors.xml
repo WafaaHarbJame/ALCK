@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F7F9FA</color>
+    <color name="colorPrimaryDark">#2A2E43</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="green">#26996F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#090909</color>
+    <color name="blue">#3ACCE1</color>
+    <color name="signupdark">#2A2E43</color>
+    <color name="purple">#665EFF</color>
+    <color name="darkgray">#454F63</color>
+ <color name="whitgray">#959DAD</color>
+    <color name="darkback">#454F63</color>
+    <color name="grrey">#707070</color>
+    <color name="whitegrrey">#F4F4F6</color>
+
+
+    <integer-array name="pocket_background_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_4</item>
+    </integer-array>
+
+    <color name="pocket_color_1">#3ACCE1</color>
+    <color name="pocket_color_2">#3497FD</color>
+    <color name="pocket_color_3">#5773FF</color>
+    <color name="pocket_color_4">#665EFF</color>
+    <integer-array name="pocket_bar_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+    </integer-array>
+</resources>

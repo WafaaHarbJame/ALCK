@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:background="@color/signupdark"
+    android:textDirection="rtl"
+
+    tools:context=".Activity.ChallengedIlliteracy">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/back_pink_arrow">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/EeditUsername"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/username"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:textColor="@color/whitgray"
+        android:background="@drawable/dark_withpadding"
+        android:textColorHint="@color/whitgray"        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/EditPassword"
+        android:layout_width="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textAlignment="textEnd"
+        android:textColor="@color/whitgray"
+        android:background="@drawable/dark_withpadding"
+        android:textColorHint="@color/whitgray"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+    </EditText>
+
+    <EditText
+        android:id="@+id/RepeateEditPassword"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"
+        android:hint="@string/repeatepassword"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/whitgray"
+        android:background="@drawable/dark_withpadding"
+        android:textColorHint="@color/whitgray"
+        android:layout_height="wrap_content"
+        android:gravity="end" />
+
+    <Button
+        android:id="@+id/Signin"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:text="@string/continio"
+        android:background="@drawable/purblebutton"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:textSize="20sp"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+</LinearLayout>

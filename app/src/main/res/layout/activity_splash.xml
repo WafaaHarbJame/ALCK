@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.SplashActivity"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:background="@drawable/splash"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/whitemic"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="350dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ImageView>
+    <Button
+        android:id="@+id/vlounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/edit_textborder"
+        android:text="@string/vlounter"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Challenged_illiteracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/vlounter"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edit_textemptyborder"
+        android:text="@string/Challenged_illiteracy"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/vlounter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

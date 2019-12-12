@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:background="@drawable/grayback"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:textDirection="rtl"
+    android:background="@drawable/grayback"
+
+    tools:context=".Activity.ChallengedIlliteracy">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="match_parent">
+                />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/back_green_arrow">
+
+            </ImageView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="parent"
+                android:background="#F4F4F6" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <EditText
+        android:id="@+id/EeditUsername"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/username"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@drawable/vlounterr_edi_text"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/EditPassword"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:background="@drawable/vlounterr_edi_text"
+        android:layout_height="wrap_content"
+     >
+    </EditText>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/phone"
+        android:background="@drawable/vlounterr_edi_text"
+        android:layout_height="wrap_content"
+       />
+
+    <Button
+        android:id="@+id/Signin"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:text="@string/continio"
+        android:background="@drawable/buttonbordergreen"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:padding="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+</LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/blackmic"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="350dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ImageView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AIDK</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Challenged_illiteracy">متحدي الأمية</string>
+    <string name="vlounter">متطوع</string>
+    <string name="email">الأيميل</string>
+    <string name="password">كلمة المرور</string>
+    <string name="signin">تسجيل الدخول</string>
+    <string name="createnewaccount">عمل حساب جديد</string>
+    <string name="mEditEmail">الايميل مطلوب !</string>
+    <string name="mEditPassword">كلمة المرور مطلوب</string>
+    <string name="enter__correct_email">البريد الألكتروني غير صالح</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="repeatepassword">تاكيد كلمة المرور</string>
+    <string name="continio">استمر</string>
+    <string name="mEeditUsername">اسم المستخدم مطلوب</string>
+    <string name="mEditREpPassword">تأكيد كلمة المرور مطلوب</string>
+    <string name="confirmPasswordNotMatchesPassword">كلمتا المرور غير متطابقا</string>
+    <string name="register">التسجيل</string>
+    <string name="uploadphoto">ارفاق صورة</string>
+    <string name="identinitynumber">رقم البطاقة الشخصية</string>
+    <string name="phone">رقم الهاتف المحمول</string>
+    <string name="EDiDENTITY">رقم البطاقة مطلوب</string>
+    <string name="serachtext">جاري البحث عن متحدي امية............</string>
+    <string name="distance">على بعد 4 دقائق منك</string>
+    <string name="cancle">الغاء</string>
+    <string name="serachvolunterrtext">جاري البحث عن متطوع  ......</string>
+    <string name="searchvolu">بحث عن متطوع</string>
+</resources>
